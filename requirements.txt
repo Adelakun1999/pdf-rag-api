@@ -26,6 +26,5 @@ fastapi
 langserve
 transformers
 python-multipart
-python-pdf-parser
 
 
