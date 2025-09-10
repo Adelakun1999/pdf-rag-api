@@ -5,7 +5,7 @@ pypdf
 pymupdf
 langchain-text-splitters
 langchain-openai
-chromadb
+chromadb==0.5.3
 langchain_chroma
 langchain_groq
 uvicorn
