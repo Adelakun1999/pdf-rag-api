@@ -6,9 +6,12 @@ pymupdf
 langchain-text-splitters
 langchain-openai
 langchain_chroma
+Chromadb
 langchain_groq
 uvicorn
 fastapi
+python-multipart
+
 
 
 
