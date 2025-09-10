@@ -1,11 +1,3 @@
-python-dotenv
-langchain-community[openai,text-splitters]
-pypdf
-pymupdf
-langchain-text-splitters
-langchain-openai
-langchain_chroma
-langchain_groq
 uvicorn
 fastapi
 
