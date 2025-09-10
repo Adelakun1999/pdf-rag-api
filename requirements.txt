@@ -1,4 +1,16 @@
+langchain
+python-dotenv
+langchain-community
+pypdf
+pymupdf
+langchain-text-splitters
+langchain-openai
+langchain_chroma
+langchain_groq
 uvicorn
 fastapi
+
+
+
 
 
