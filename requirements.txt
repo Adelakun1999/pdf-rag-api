@@ -1,6 +1,5 @@
-langchain
 python-dotenv
-langchain-community
+langchain-community[openai,text-splitters]
 pypdf
 pymupdf
 langchain-text-splitters
@@ -9,6 +8,5 @@ langchain_chroma
 langchain_groq
 uvicorn
 fastapi
-python-multipart
 
 
