@@ -5,8 +5,6 @@ pypdf
 langchain-openai
 langchain_groq
 faiss-cpu
-uvicorn
-fastapi
 python-multipart
 
 
