@@ -1,7 +1,7 @@
 import os 
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_chroma import Chroma
+from langchain_community.vectorstores import FAISS
 from llm_setup import get_embedding_model
 
 VECTORSTORE_DIR = "storage/vectorstore"
@@ -25,10 +25,10 @@ def process_pdfs(uploaded_files_paths : list , session_id:str):
     splits = text_splitter.split_documents(documents)
 
     persist_dir = get_vectorstore_path(session_id)
-    vectorstore = Chroma.from_documents(
+    vectorstore = FAISS.from_documents(
         documents = splits , 
         embedding = get_embedding_model(),
-        persist_directory = persist_dir
+        #persist_directory = persist_dir
     )
 
     return vectorstore.as_retriever()
