@@ -2,7 +2,7 @@ langchain
 python-dotenv
 langchain-community
 pypdf
-langchain-openai
+langchain_openai
 langchain_groq
 faiss-cpu
 uvicorn
