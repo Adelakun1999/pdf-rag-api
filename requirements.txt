@@ -2,6 +2,20 @@ python-dotenv
 pypdf
 faiss-cpu
 python-multipart
+fastapi
+uvicorn
+pyjwt
+passlib
+bcrypt
+requests
+aiohttp
+pydantic
+sqlalchemy
+alembic
+psycopg2-binary
+pydantic[email]
+google-genai
+PyYAML
 
 
 
