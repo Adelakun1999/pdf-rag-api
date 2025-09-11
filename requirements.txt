@@ -2,12 +2,9 @@ langchain
 python-dotenv
 langchain-community
 pypdf
-pymupdf
-langchain-text-splitters
 langchain-openai
-langchain_chroma
-Chromadb
 langchain_groq
+faiss-cpu
 uvicorn
 fastapi
 python-multipart
